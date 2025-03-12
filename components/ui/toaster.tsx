@@ -7,13 +7,13 @@ import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
 export function Toaster() {
-  const { toasts, dismissToast } = useToast()
+  const { toasts, dismiss } = useToast()
 
   return (
     <div className="fixed top-0 right-0 z-50 p-4 w-full sm:max-w-[420px] flex flex-col gap-2">
       <AnimatePresence>
         {toasts.map((toast) => (
-          <Toast key={toast.id} toast={toast} onDismiss={() => dismissToast(toast.id)} />
+          <Toast key={toast.id} toast={toast} onDismiss={() => dismiss(toast.id)} />
         ))}
       </AnimatePresence>
     </div>
@@ -24,9 +24,10 @@ function Toast({
   toast,
   onDismiss,
 }: {
-  toast: { id: string; title?: string; description?: string; duration?: number }
+  toast: { id: string; title?: string; description?: React.ReactNode; duration?: number }
   onDismiss: () => void
 }) {
+
   const [timeLeft, setTimeLeft] = useState(toast.duration || 5000)
 
   useEffect(() => {
@@ -74,4 +75,3 @@ function Toast({
     </motion.div>
   )
 }
-
