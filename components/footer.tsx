@@ -162,11 +162,11 @@ export default function Footer() {
               </div>
               <div className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-primary mt-0.5" />
-                <span className="text-gray-400">+91 98765 43210</span>
+                <span className="text-gray-400">+91 12345 54321</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-primary mt-0.5" />
-                <span className="text-gray-400">123 Education Street, Bangalore, Karnataka, India</span>
+                <span className="text-gray-400"> Bangalore, Karnataka, India</span>
               </div>
             </div>
             <form onSubmit={handleContactSubmit} className="space-y-3">
