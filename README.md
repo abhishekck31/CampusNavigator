@@ -7,7 +7,7 @@
 **CampusNavigator** is an interactive web application designed to provide a **seamless virtual college touring experience**. The platform enables users to explore college campuses, events, and facilities through a Google-like interface with a sleek, modern design. Built with cutting-edge technology, CampusNavigator ensures an engaging and intuitive user experience.
 
 ## Live Website
-[https://yourdeployedurl.com](https://yourdeployedurl.com)
+[https://campusnavigator.com](https://campus--navigator.vercel.app/)
 
 ## Features
 - **360° Virtual Tour** to explore campus locations interactively.
