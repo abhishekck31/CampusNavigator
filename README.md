@@ -1,30 +1,32 @@
-# 🚀 CampusNavigator
+# CampusNavigator
 
-CampusNavigator is an interactive college tour application designed to provide a seamless and immersive virtual experience for prospective students and visitors. Built with Next.js, HTML, CSS, and JavaScript, the platform combines sleek design with dynamic content and user interactivity.
+![CampusNavigator](https://yourimageurl.com/preview.png)  
+*An Interactive College Tour Application*
 
-## 🌟 Features
+## Overview
+**CampusNavigator** is an interactive web application designed to provide a **seamless virtual college touring experience**. The platform enables users to explore college campuses, events, and facilities through a Google-like interface with a sleek, modern design. Built with cutting-edge technology, CampusNavigator ensures an engaging and intuitive user experience.
 
-- 🏫 **College Selection**: Choose from 5 pre-listed colleges for guided virtual tours.
-- 📅 **Event Listings**: Stay updated on campus events and activities.
-- 🌐 **360° Virtual Tours**: Explore campuses through embedded maps and panoramic views.
-- 📧 **Newsletter Signup**: Subscribe to receive the latest news and updates.
-- 🏢 **Admin Controls**: Future-proof design with admin functionalities planned.
-- 🎨 **Modern UI/UX**: Inspired by Google’s minimalism, V0's design principles, and a sleek black theme with Poppins font and gradient colors.
-- 📲 **Responsiveness**: Fully optimized for both mobile and desktop experiences.
-- 🎬 **Dynamic Interactions**: Smooth scrolling, animated transitions, and interactive elements.
+## Live Website
+[https://yourdeployedurl.com](https://yourdeployedurl.com)
 
-## 📦 Tech Stack
+## Features
+- **360° Virtual Tour** to explore campus locations interactively.
+- **Dynamic Event Listings** to keep students informed about ongoing and upcoming events.
+- **Fully Responsive UI** with a sleek, modern black-themed design inspired by V0.
+- **Smooth Animations & Transitions** for a high-end, award-winning feel.
+- **Admin Panel** for managing event listings and campus information.
+- **Newsletter Signup** for updates and notifications.
+- **Future-Ready Authentication** (Google & OTP login planned for future versions).
 
-- **Frontend**: Next.js, HTML, CSS, JavaScript
-- **Design**: Tailwind CSS (for flexibility and efficiency)
-- **Maps**: Embedded interactive maps for campus tours
-- **Authentication**: Planned for future versions — Google OAuth and OTP login
-- **Deployment**: (to be added post-hackathon)
+## Tech Stack
+- **Frontend**: Next.js, Tailwind CSS  
+- **Backend**: Planned for future implementation  
+- **Hosting**: Vercel  
 
-## 🛠️ Installation
+## Installation & Development
+To set up the project locally, follow these steps:
 
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/CampusNavigator.git
-cd CampusNavigator
+### Clone the Repository
+```sh
+git clone https://github.com/yourusername/campusnavigator.git
+cd campusnavigator
